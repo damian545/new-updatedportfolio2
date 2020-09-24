@@ -1,0 +1,21 @@
+body {
+  background-image: url("./images/redabstract.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+hr {
+  width: 100%;
+}
+h1,
+h3,
+span {
+  font-style: oblique;
+}
+img {
+  border-radius: 25px;
+  float: left;
+}
+.footer-text {
+  color: white;
+}

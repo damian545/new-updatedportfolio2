@@ -1,0 +1,81 @@
+body {
+  background-image: url("./images/backgroundimage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+hr {
+  width: 35%;
+  color: grey;
+  margin-left: 15px;
+}
+a {
+  font-style: oblique;
+  color: lightyellow;
+}
+h2,
+h1 {
+  color: white;
+  font-style: oblique;
+}
+h3 {
+  color: yellow;
+  font-style: oblique;
+}
+h4,
+h5 {
+  color: crimson;
+  font-style: oblique;
+}
+p.me {
+  font-size: 30px;
+}
+p.job {
+  font-size: 25px;
+}
+img {
+  border-radius: 25px;
+}
+i {
+  color: rgba(44, 123, 202, 0.87);
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+/* 2 columns */
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
